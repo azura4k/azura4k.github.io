@@ -1,61 +1,274 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Portfolio</title>
-	  <meta charset="UTF-8">
-	  <meta name="description" content="Azura4k Developer and Design Portfolio">
-	  <meta name="keywords" content="HTML, CSS, Web Developer, Web Designer">
-	  <meta name="author" content="Azura4k">
+    <title>Homepage</title>
+    <meta name="author" content="Azura4k">
+    <meta name="tags" content="Web Design, Web Development. Software Developer. Software Designer, Development, Design">
+    <meta name="copyright" content="Copyright Azura Studio 2020">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/grid/simple-grid.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-     <link rel="stylesheet" href="assets/css/animations/waveanimation.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="Assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="Assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="Assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="Assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
-    
-    <section id="Introduction" >
-        <div>
-            <h1>Azura4k</h1>
-            <span>C#, Java, and Web Developer</span>
+   <section id="Introduction" class="container-fluid changebg1">
+    <div class="row" style="background-color:rgba(0, 0, 0, 0.8); height: 100%">
+        <div class="col-sm-12" id="IntroAsset">
+            <h4 style="color: #ffffff">Azura4k</h4>
         </div>
-            <a href="#Aboutme">Explore</a>
-    </section>
-    
-    <section id="AboutMe" class="container">
-        <div class="row">
-            <div class="col-6">
-            <h2>About Me</h2>
+        <div class="col-sm-12 text-center">
+            <img src="Assets/Company Logo.svg" style="width:20rem; margin: 10px; padding-bottom: 30px" class="levitateanimation">
+            <h1>Azura4k <br> <small>A Student Developer and Designer</small></h1>
+        </div>
+        <div class="col-md-12 d-sm-none row fixed-bottom" id="IntroNav">
+            <div class="col-md-2 col-sm-4 col-xs-4 text-center Introlink"><a href="https://azurastudio.net/">Home</a></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 text-center Introlink"><a href="#ID">About</a></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 text-center Introlink"><a href="#Skillset">Skillset</a></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 text-center Introlink"><a href="#Services">Specialize</a></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 text-center Introlink"><a href="#Partners">Partners</a></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 text-center Introlink"><a href="#Contact">Contact</a></div>
+        </div>
+    </div>
+   </section>
+   <section class="container-fluid" id="ID">
+        <div class="row" id="IdContainer">
+            <div class="col-sm-6 text-center"><img src="Assets/Company Logo.svg"></div>
+            <div class="col-sm-6">
+                <h2>The Kid Behind the Mask</h2 >
+                <p>Hola, my name is Devin, I'm a Student Developer and Designer. I'm currently in HIghschool and College trying to gain credits to graduate in my respective field..
+                I love coding and designing. Ever since I was young, I was fascinated by technology and programming. I work on various projects and other cool things
+                </p>    
             </div>
-            <div class="col-6"><p>Content</p></div>
         </div>
-    </section>
-    
+   </section>
+   <section class="container-fluid" id="Skillset">
+        <div class="jumbotron">
+            <h2>Skillsets</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3 text-center skillsetCard">
+                <img src="/Assets/web.png">
+                <h2>Website Design</h2>
+                <p>I'm well versed and experiancd in html, css, javascript, and bootstrap web design languages and frameworks</p>
+            </div>
+            <div class="col-md-3 text-center skillsetCard">
+                <img src="/Assets/Python.png">
+                <h2>Python</h2>
+                <p>I'm currently studying and learning Python, however, I have a standard grasp on it and would love to make it my primary language.</p>
+            </div>
+
+            <div class="col-md-3 text-center skillsetCard">
+                <img src="/Assets/java.png">
+                <h2>Java</h2>
+                <p>My secondary language. I code java most of the time so as long as I know my libraries, I can do just fine.</p>
+            </div>
+
+            <div class="col-md-3 text-center skillsetCard">
+                <img src="/Assets/CSharp.png">
+                <h2>C#</h2>
+                <p>A Language I picked up when I was very young. Not my best but I would be fine with a quick crash course.</p>
+            </div>
+
+        </div>
+        <div class = "row">
+
+            <div class="col-md-3 text-center skillsetCard">
+                <img src="/Assets/XD.png">
+                <h2>Adobe XD</h2>
+                <p>I've been using this program since it came out. I love XD and I use it personally and professionally to prototype UI designs</p>
+            </div>
+
+            <div class="col-md-3 text-center skillsetCard">
+                <img src="/Assets/gravit.png">
+                <h2>Gravit Designer</h2>
+                <p>My prefered Illustration software for logos, assets, editing, and overall graphic processing.</p>
+            </div>
+
+            <div class="col-md-3 text-center skillsetCard">
+                <img src="/Assets/Github.png">
+                <h2>Github</h2>
+                <p>My favorite version control software. I love using github to manage and update all my code projects.</p>
+            </div>
+
+            <div class="col-md-3 text-center skillsetCard">
+                <img src="/Assets/VScode.png">
+                <h2>VS Code</h2>
+                <p>My prefered code editor and IDE. I use VScode to type out all my python code and scripts along with my website development.</p>
+            </div>
+        </div>
+   </section>
+   <section class="container-fluid changebg1" ID="Services">
+    <div class="row text-center" style="background-color:rgba(0, 0, 0, 0.95);">
+
+            <div class="col-sm-6">
+                <img src="/Assets/Responsive.svg">
+            </div>
+            <div class="col-sm-6">
+                <h2>Responsive Website Design</h2>
+                <p>I focus on mobile design to ensure the website is viewable on all platforms to the best ability possible. Working to ensure the website's attractiveness and functionality</p>
+            </div>
+
+                </div>
+            <div class="row text-center" style="background-color: #FFFFFF; color: #3d3d3d">
+            <div class="col-sm-6">
+                <img src="/Assets/Bug.svg">
+            </div>
+            <div class="col-sm-6" >
+                <h2>Deubgging and Compatability</h2>
+                <p>Personally testing for any glitches and stretching the limits of the website in all modern browsers. Ensuring quality website experiance for the user while handling complex things in the backend.</p>
+            </div>
+
+            </div>
+            <div class="row text-center"  style="background-color:rgba(0, 0, 0, 0.95);">
+            <div class="col-sm-6">
+                <img src="/Assets/UIUX.svg">
+            </div>
+            <div class="col-sm-6">
+                <h2>Design and Asset Coordination</h2>
+                <p>I sometimes have to make custom assets designed soley for one website. It' one of the key components for a website to look professional while maintaining style and user accessability. I strive hard to combine this along with meeting the client objectives.</p>
+            </div>
+        </div>
+   </section>
+<section id="Partners" class="container-fluid">
+    <hr>
+  <h1 class=" jumbotron">
+        Partnerships
+        <br>
+        <small>
+            Past Partnerships and People whom I have worked with or worked for.
+        </small>
+    </h1>
+
+    <div class="row">
+        <div class="col-sm-4 Pitem text-center">
+            <a href="https://www.devscorch.com">
+                <img src="https://devscorch.com/wp-content/uploads/2020/12/logo.png">
+            </a>
+            <h3>Devscorch</h3>
+            <p class="text-left">
+                I collaberated with Devscorch's team on a multitude of projects along the years. I work with them from time to time on concept ideas and some web projects.
+            </p>
+        </div>
+
+        <div class="col-sm-4 Pitem text-center">
+            <a href="https://Tasmaniancleaningservicellc.com">
+                <img src="/Assets/TCC.svg">
+            </a>
+            <h3>Tasmanian Cleaning Service LLC</h3>
+            <p class="text-left">
+                I collaberated with Devscorch's team on a multitude of projects along the years. I work with them from time to time on concept ideas and some web projects.
+            </p>
+        </div>
+
+    </div>
+</section>
+<section id="Contact" class="container-fluid changebg1">
+    <div class="row">
+    <h2 class="jumbotron text-center">Don't be Scared, I won't <b>Bite</b><br><hr><small><h3>Contact Me</h3></small></h2>
+        <div class="col-sm-6 text-center">
+            <img src="/Assets/QuestionMark.svg">
+        </div>
+        <div class="col-sm-6 text-center">
+            <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/1-ltH_pJg_SctV8_f-0aLCKPh4H8Qb1LjKr1oiawtT3M/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                <input placeholder="Name" type="text" name="entry.535131306" id="entry.535131306"><br>
+                <input placeholder="Organization" type="text" name="entry.1682646875" id="entry.1682646875"><br>
+                <input placeholder="Email" type="email" name="entry.1565157403" id="entry.1565157403"><br>
+                <textarea placeholder="Message" form="ContactForm" name="entry.1124179579" id="entry.1124179579"></textarea><br>
+                <button type="submit" class="buttonLink" style="color:#3d3d3d" value="Submit">Sendoff -></button>
+            </form>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        </div>
+       
+</section>
+
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4 text-center">
+            <h2>Navigation</h2>
+            <a href="https://azurastudio.net/">Home</a><br>
+            <a href="#ID">About</a><br>
+            <a href="#Skillset">Skillset</a><br>
+            <a href="#Services">Specialize</a><br>
+            <a href="#Partners">Partners</a><br>
+            <a>Legal</a><br>
+            <a href="#Contact">Contact</a><br>
+        </div>
+
+    <div class="col-sm-4 text-center">
+        <h2>Contacts and Social</h2>
+        <a href="tel:586.913.1254"><span class="glyphicon glyphicon-earphone"></span> 586.913.1254</a><br>
+        <a href="mailto:azura4k@icloud.com"><span class="glyphicon glyphicon-envelope"></span> azura4k@icloud.com</a><br>
+        <a href="https://www.twitter.com/azura4k"><img src="/Assets/twitter.svg"></a>
+        <a href="https://my.playstation.com/profile/Serengon4k"><img src="/Assets/playstation.svg"></a>
+        <a href="https://www.behance.net/devinb4k342e"><img src="/Assets/behance.svg"></a>
+        <a href="https://github.com/azura4k"><img src="/Assets/github.svg"></a>
+        <a href="https://discord.gg/T7QG7XbYnZ"><img src="/Assets/discord.svg"></a>
+    </div>
+
+        <div class="col-sm-4 text-center">
+        <img src="Assets/Company Logo.svg" style="background:none; width: 75px">
+        <h2>&copy;Azura4k</h2>
+        <small>2021, All Rights Reserved</small>
+    </div>
+
+    </div>
+</footer>
 </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+    $(function () {
+        $('a[href*=\\#]:not([href=\\#])').on('click', function () {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        });
+    });
+    var submitted = false;
+    $('#gform').on('submit', function (e) {
+        $('#gform *').fadeOut(100);
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
+        $('#gform').prepend('<p>Your submission has been received<p>');
+    });
 </script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+    $('#gform').on('submit', function(e) {
+    $('#gform *').fadeOut(2000);
+    $('#gform').prepend('Your submission has been processed...');
+    });
+</script>
+
+
 </html>
+
+
+<!--https://bbbootstrap.com/snippets/basic-carousel-slider-owl-carousel-19760944
+Pexels.com
+-->
