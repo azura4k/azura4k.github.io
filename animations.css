@@ -10,6 +10,39 @@
     animation: levitate 4s infinite linear;
 }
 
+a:hover, input:hover, input:focus, textarea:hover, textarea:focus, button:hover{
+    animation: anchorhover 15s linear;
+    text-decoration: none;
+    outline: none;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @keyframes changingbgimg{
     0%, 100%{background-image:url(https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) ;}
@@ -26,3 +59,9 @@
     50%{transform: translateY(-20px);}
 }
 
+@keyframes anchorhover{
+    0%{}
+    50%{color:rgb(121, 121, 121) }
+    100%{color:rgb(85, 85, 85) ;}
+
+}
