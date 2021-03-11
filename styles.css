@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Signika:wght@300&display=swap');
 :root{
     --BackgroundColor: #000000;
     --PrimaryColor: #ffffff;
@@ -10,7 +10,9 @@ body{
     background-color: var(--BackgroundColor);
     height: 100%;
 }
-
+.wrap{
+    overflow: hidden;
+}
 .btnlink{
     padding: 10px 20px;
     border: 2px var(--PrimaryColor) solid;
@@ -24,13 +26,12 @@ body{
 
 h1,h2,h3,h4,h5,h6{font-family: 'Signika';color:var(--PrimaryColor)}
 
-p,span,article,i,span,small,b,a{font-family: 'Raleway'; color: var(--PrimaryColor) !important;}
-
+p,span,article,i,span,small,b,a{font-size: 15px; font-family: 'Maven Pro'; color: var(--PrimaryColor);}
 
 footer{
-    padding: 5vw;
+    padding: 10vw;
     background-color: var(--BackgroundColor);
-    color: var(--NmlTextColor);
+    color: var(--PrimaryColor);
     border-top: solid white 2px;
 }
 footer img{
