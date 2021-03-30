@@ -25,15 +25,14 @@
     margin-top: 15%;
     letter-spacing: 10px;
 }
-
-
-
 #bio .row{ 
     padding: 20px;
+     height: 40vh;
 }
 #bio{
     margin-top: 20vh;
     margin-bottom: 10vh;
+   
 }
 #bio img{
     width: 50%
@@ -55,8 +54,6 @@
 #advertisement .adbox:{
     margin-top: 35vh
 }
-
-
 #contracting{
     padding: 5%;
     margin-top: 20vh;
@@ -67,17 +64,22 @@
     padding: 20px;
     text-align: justify;
 }
-
-
-
-
-
-
-
-
-
-
-
+#advertisement .adbox div{
+    padding: 50px;
+    padding-top: 35vh;
+    height: 70vh !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--PrimaryColor);
+}
+#advertisement .adbox h3, .adbox p{
+    padding-top: 5px;
+    color: var(--BackgroundColor) !important;
+}
+#advertisement .adbox:{
+    margin-top: 35vh
+}
 #contact{
     margin-top: 20px;
     margin-bottom: 10vh;
@@ -94,7 +96,6 @@
     background-position: center;
     display: block;
 }
-
 #contact input, textarea{
     padding: 5px;
     height: 40px;

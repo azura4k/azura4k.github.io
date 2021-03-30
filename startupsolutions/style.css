@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Signika:wght@300&display=swap');
-:root{
-    --BackgroundColor: #000000;
-    --PrimaryColor: #ffffff;
-    --SecondaryColor:#024274;
+
+:root {
+    --PrimaryColor: #00f597;
+    --SecondaryColor: #181818;
+    --BackgroundColor: rgb(255, 255, 255);
 }
 body{
     margin: 0px !important;
@@ -10,22 +11,20 @@ body{
     background-color: var(--BackgroundColor);
     height: 100%;
 }
-nav{
-    position: fixed;
-    display: inline-block;
-    z-index: 2;
-    text-align: right;
-    padding: 5px 0px;
-    background-color: #00000093;
-}
-nav a{
-    display: inline-block;
-    margin: 0px 2px;
-    padding: 0px 2px;
-}
 .wrap{
     overflow: hidden;
 }
+h1,h2,h3,h4,h5,h6{font-family: 'Signika';color:var(--PrimaryColor)}
+
+p,span,article,i,span,small,b,a{font-size: 15px; font-family: 'Maven Pro'; color: var(--SecondaryColor);}
+
+nav{
+    display: inline-block;
+    z-index: 2;
+    background-color: var(--SecondaryColor);
+    position: fixed;
+}
+
 .btnlink{
     padding: 10px 20px;
     border: 2px var(--PrimaryColor) solid;
@@ -36,13 +35,8 @@ nav a{
     -moz-box-shadow: 14px 14px 32px -23px rgba(28,28,28,1);
     box-shadow: 14px 14px 32px -23px rgba(28,28,28,1);
 }
-
-h1,h2,h3,h4,h5,h6{font-family: 'Signika';color:var(--PrimaryColor)}
-
-p,span,article,i,span,small,b,a{font-size: 15px; font-family: 'Maven Pro'; color: var(--PrimaryColor);}
-
 footer{
-    padding: 10vw;
+    padding: 2vw;
     background-color: var(--BackgroundColor);
     color: var(--PrimaryColor);
     border-top: solid white 2px;
