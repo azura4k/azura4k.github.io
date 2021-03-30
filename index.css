@@ -27,11 +27,11 @@
 }
 #bio .row{ 
     padding: 20px;
-     height: 40vh;
+     height: 120%;
 }
 #bio{
     margin-top: 20vh;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
    
 }
 #bio img{
