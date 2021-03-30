@@ -10,19 +10,6 @@ body{
     background-color: var(--BackgroundColor);
     height: 100%;
 }
-nav{
-    position: fixed;
-    display: inline-block;
-    z-index: 2;
-    text-align: right;
-    padding: 5px 0px;
-    background-color: #00000093;
-}
-nav a{
-    display: inline-block;
-    margin: 0px 2px;
-    padding: 0px 2px;
-}
 .wrap{
     overflow: hidden;
 }
