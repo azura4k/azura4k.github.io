@@ -169,18 +169,22 @@
 </body>
 
 <script>
-    $(function() {
-        $('a[href*=\\#]:not([href=\\#])').on('click', function() {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        });
-    });
+const links = document.querySelectorAll("a");
+
+for (const link of links) {
+  link.addEventListener("click", clickHandler);
+}
+
+function clickHandler(e) {
+  e.preventDefault();
+  const href = this.getAttribute("href");
+  const offsetTop = document.querySelector(href).offsetTop;
+
+  scroll({
+    top: offsetTop,
+    behavior: "smooth"
+  });
+}
     var submitted = false;
     $('#gform').on('submit', function(e) {
         $('#gform *').fadeOut(100);
