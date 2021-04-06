@@ -22,7 +22,7 @@
     filter: grayscale(100%) brightness(50%);
 }
 #Introduction h2{
-    margin-top: 15%;
+    margin-top: 25vh;
     letter-spacing: 10px;
 }
 #bio .row{ 

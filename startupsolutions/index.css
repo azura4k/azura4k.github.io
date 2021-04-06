@@ -66,6 +66,19 @@
     padding: 10px 5%;
 
 }
+
+#FAQ{
+   background-color: var(--SecondaryColor);
+   margin-top: 10%;
+}
+
+.FAQ-QA h2, .FAQ-QA p{
+    color: var(--BackgroundColor);
+    padding: 2%;
+}
+
+
+
 #contact{
     margin-top: 20px;
     margin-bottom: 10vh;
