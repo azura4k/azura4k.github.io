@@ -1,0 +1,46 @@
+#Introduction{
+    padding-top: 30vh;
+    height: 55vh;
+    background-image: url(assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+
+#Introduction .row div{
+    margin-top: 20px;
+}
+#Introduction h1{
+    letter-spacing: 20px;
+    color: var(--PrimaryColor);
+}
+#Introduction h2, .btn{
+    letter-spacing: 10px;
+    color: var(--PrimaryColor);
+    padding-left: -15%;
+    border-color: var(--BackgroundColor) !important;
+}
+
+#ouragenda{
+    display: block;
+    padding: 5%;
+}
+#content{
+    padding: 4%;
+    height: 70vh;
+    max-height: 70vh;
+    overflow-y: scroll;
+    margin-bottom: 4%;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+}
+#contact{
+    margin-bottom: 6%;
+}
+
+.tab-pane{
+    padding: 5% 5% 0px 5%;
+}
