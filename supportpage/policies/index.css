@@ -30,9 +30,7 @@
 }
 #content{
     padding: 4%;
-    height: 90vh;
-    max-height: 70vh;
-    overflow-y: scroll;
+    height: 100%;
     margin-bottom: 4%;
     border-bottom: solid black 2px;
     border-top: solid black 2px;
